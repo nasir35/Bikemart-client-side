@@ -3,9 +3,9 @@ import { NavLink } from 'react-router-dom';
 
 const Banner = () => {
     return (
-        <div className="grid sm:grid-cols-2 grid-cols-1 bg-gray-100">
+        <div className="grid sm:grid-cols-2 grid-cols-1 bg-gray-200">
             <div>
-                <img src="https://i.ibb.co/3T53nLK/bicycle1.png" />
+                <img src="https://i.ibb.co/3T53nLK/bicycle1.png" alt="bicycle" />
             </div>
             <div className="space-y-6 flex justify-center items-center flex-col md:p-12 p-6">
                 <h2 className="md:text-3xl sm:text-2xl text-xl text-center text-gray-900 font-medium">Buy Best Bicycles <br /> Online For Men <br />Women and Children</h2>

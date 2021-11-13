@@ -11,6 +11,7 @@ module.exports = {
         'stromboli' : '#315048',
         'green-custom' : '#1CAE4B',
         'coral' : '#FF7F47',
+        'yellow' : '#ff0'
       }
     },
   },
