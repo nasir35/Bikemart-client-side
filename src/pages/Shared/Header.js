@@ -32,11 +32,11 @@ const Header = () => {
     return (
         <div className="grid grid-cols-12 lg:px-10 md:px-4 px-3 py-2 bg-gray-800 text-white font-qsand">
             <div className="col-span-2">
-                <Link to="home"><h2 className="text-coral text-2xl font-medium">BikeMart</h2></Link>
+                <Link to="/home"><h2 className="text-coral text-2xl font-medium">BikeMart</h2></Link>
             </div>
             <i onClick={handleMenu} ref={btn} className="fas fa-bars md:hidden col-span-10 sm:text-3xl text-2xl text-right"></i>
             <nav ref ={menu} className="md:col-span-10 md:flex hidden col-span-12 items-center">
-                <div className="grid grid-cols-10">
+                <div className="grid grid-cols-10 w-full">
                     <div className="md:col-span-6 col-span-10">
                         <div className="flex md:flex-row flex-col md:justify-start justify-center items-center">
                             <NavLink to="/home" activeClassName="text-yellow" className="md:text-lg text-base font-medium  md:mr-4">Home</NavLink>
@@ -49,7 +49,7 @@ const Header = () => {
                         </div>
                     </div>
                     <div className="md:col-span-4 col-span-10">
-                        <div className="flex md:justify-end justify-center">                    
+                        <div className="flex md:justify-end justify-center md:justify-self-end">                    
                             {user?.email ?
                             <span className="md:inline flex flex-col text-center">
                                 <img src={user.photoURL} alt="" className="w-10 h-10 mx-auto rounded-full md:inline-block block" />
