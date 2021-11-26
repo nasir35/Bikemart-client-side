@@ -5,7 +5,7 @@ const SingleReview = ({reviewObj}) => {
     const handlePending = id => {
         const proceedToUpdate = window.confirm('Are you sure about changing the review status to pending?');
         if(proceedToUpdate){
-            const url = `http://localhost:5000/reviews/pending/${id}`;
+            const url = `https://frozen-scrubland-17701.herokuapp.com/reviews/pending/${id}`;
             fetch(url, {
                 method : 'PUT'
             })
@@ -18,7 +18,7 @@ const SingleReview = ({reviewObj}) => {
     const handlePublish = id => {
         const proceedToUpdate = window.confirm('Are you sure about publishing the review?');
         if(proceedToUpdate){
-            const url = `http://localhost:5000/reviews/publish/${id}`;
+            const url = `https://frozen-scrubland-17701.herokuapp.com/reviews/publish/${id}`;
             fetch(url, {
                 method : 'PUT'
             })
@@ -31,7 +31,7 @@ const SingleReview = ({reviewObj}) => {
     const handleDelete = id => {
         const proceedToUpdate = window.confirm('Are you sure about deleting the review?');
         if(proceedToUpdate){
-            const url = `http://localhost:5000/reviews/${id}`;
+            const url = `https://frozen-scrubland-17701.herokuapp.com/reviews/${id}`;
             fetch(url, {
                 method : 'DELETE'
             })
