@@ -11,6 +11,7 @@ import MyOrders from './ForUser/MyOrders';
 import Pay from './ForUser/Pay';
 import GiveReview from './ForUser/GiveReview';
 import AddBlog from '../Home/Blog-section/AddBlog';
+import AllReviews from './ForAdmin/AllReviews';
 
 const Dashboard = () => {
     const {admin, logOut} = useAuth() || {};
@@ -47,6 +48,7 @@ const Dashboard = () => {
                         <NavLink to={`${url}/addproduct`} activeClassName="bg-gray-500 rounded py-1"><button className="xl:uppercase lg:capitalize uppercase lg:px-3 px-5 flex items-center gap-x-1"><svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 14v6m-3-3h6M6 10h2a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v2a2 2 0 002 2zm10 0h2a2 2 0 002-2V6a2 2 0 00-2-2h-2a2 2 0 00-2 2v2a2 2 0 002 2zM6 20h2a2 2 0 002-2v-2a2 2 0 00-2-2H6a2 2 0 00-2 2v2a2 2 0 002 2z" /></svg> Add A Product</button></NavLink>
                         <NavLink to={`${url}/products`} activeClassName="bg-gray-500 rounded py-1"><button className="xl:uppercase lg:capitalize uppercase lg:px-3 md:px-3 px-5 flex font-medium items-center gap-x-1 2xl:text-base text-sm font-qsand"><svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" /></svg>Manage Products</button></NavLink>
                         <NavLink to={`${url}/orders`} activeClassName="bg-gray-500 rounded py-1"><button className="xl:uppercase lg:capitalize uppercase lg:px-3 px-5 flex items-center font-medium gap-x-1 font-qsand 2xl:text-base text-sm"><svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" /></svg> Manage Orders</button></NavLink>
+                        <NavLink to={`${url}/reviews`} activeClassName="bg-gray-500 rounded py-1"><button className="xl:uppercase lg:capitalize uppercase lg:px-3 px-5 flex items-center font-medium gap-x-1 font-qsand 2xl:text-base text-sm"><svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" /></svg> Manage Reviews</button></NavLink>
                         <NavLink to={`${url}/add-blog`} activeClassName="bg-gray-500 rounded py-1"><button className="xl:uppercase lg:capitalize uppercase lg:px-3 px-5 flex items-center font-medium gap-x-1 font-qsand 2xl:text-base text-sm"><i class="far fa-edit text-lg pl-1"></i> Add A Blog</button></NavLink>
                     </div>}
                 </div>
@@ -78,6 +80,7 @@ const Dashboard = () => {
                         <AdminRoute path={`${path}/addproduct`}><AddProduct></AddProduct></AdminRoute>
                         <AdminRoute path={`${path}/products`}><ManageProducts></ManageProducts></AdminRoute>
                         <AdminRoute path={`${path}/orders`}><AllOrders></AllOrders></AdminRoute>
+                        <AdminRoute path={`${path}/reviews`}><AllReviews></AllReviews></AdminRoute>
                         <AdminRoute path={`${path}/add-blog`}><AddBlog></AddBlog></AdminRoute>
                     </Switch>
                 </div>
