@@ -16,10 +16,9 @@ Visit the live site here. [BikeMart](https://bikemart-by-nasir.web.app/)
 - An admin can manage orders, products. He can add a Product or Blog and can make a user admin too. 
 
 ## Few Screenshot of the project
+| - Top Home page![alt text](https://i.ibb.co/CvBbkTX/bikemart-by-nasir-8.png) - Bootom Home page![Home page](https://i.ibb.co/ZzghWTG/bikemart-by-nasir-1.png) | - Admin Panel Dashboard![alt text](https://i.ibb.co/RNJLXJ9/Screenshot-2021-11-27-022738.png) - User Panel Dashboard![alt text](https://i.ibb.co/vccZW41/bikemart-user-panel.png) - Manage Review pge ![Manage Review](https://i.ibb.co/C652sYY/Screenshot-2021-11-27-030025.png)|
+|-----|-----|
 
-- Home page![alt text](https://i.ibb.co/9Gn34Fv/bikemart-by-nasir.png)
-- Admin Panel Dashboard![alt text](https://i.ibb.co/qs9s8Kb/bikemart-by-nasir-admin-panel.png)
-- User Panel Dashboard![alt text](https://i.ibb.co/vccZW41/bikemart-user-panel.png)
 ## Tech And Tools
 ![Vs Code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -31,5 +30,3 @@ Visit the live site here. [BikeMart](https://bikemart-by-nasir.web.app/)
 ![MongoDB](	https://img.shields.io/badge/MongoDB-gree?style=for-the-badge&logo=mongodb&logoColor=fff)
 ![FAIREBASE](https://img.shields.io/badge/firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black)
 ![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
-
-[webdevplaylist]: https://nasir35.github.io/my-portfolio/
