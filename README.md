@@ -16,7 +16,7 @@ Visit the live site here. [BikeMart](https://bikemart-by-nasir.web.app/)
 - An admin can manage orders, products. He can add a Product or Blog and can make a user admin too. 
 
 ## Few Screenshot of the project
-| - Top Home page![alt text](https://i.ibb.co/CvBbkTX/bikemart-by-nasir-8.png) - Bootom Home page![Home page](https://i.ibb.co/ZzghWTG/bikemart-by-nasir-1.png) | - Admin Panel Dashboard![alt text](https://i.ibb.co/RNJLXJ9/Screenshot-2021-11-27-022738.png) - User Panel Dashboard![alt text](https://i.ibb.co/vccZW41/bikemart-user-panel.png) - Manage Review pge ![Manage Review](https://i.ibb.co/C652sYY/Screenshot-2021-11-27-030025.png)|
+| - Top Home page![alt text](https://i.ibb.co/CvBbkTX/bikemart-by-nasir-8.png) - Bootom Home page![Home page](https://i.ibb.co/ZzghWTG/bikemart-by-nasir-1.png) | - Admin Panel Dashboard![alt text](https://i.ibb.co/RNJLXJ9/Screenshot-2021-11-27-022738.png) - User Panel Dashboard![alt text](https://i.ibb.co/vccZW41/bikemart-user-panel.png) - Manage Review page in Admin panel ![Manage Review](https://i.ibb.co/C652sYY/Screenshot-2021-11-27-030025.png)|
 |-----|-----|
 
 ## Tech And Tools
