@@ -10,6 +10,7 @@ const GiveReview = () => {
     const onSubmit = data => {
         data.rating = rating ? rating : '4';
         data.img = user?.photoURL ? user?.photoURL : 'https://i.ibb.co/zmPpTp7/transparent-user-icon.png';
+        data.reviewStatus = 'Pending';
         console.log(data);
         fetch('https://frozen-scrubland-17701.herokuapp.com/reviews', {
             method: 'POST',
